@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107BA4C31A27A8C200FD93B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107BA4C21A27A8C200FD93B0 /* AppDelegate.swift */; };
+		107BA4C61A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 107BA4C41A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodeld */; };
+		107BA4C81A27A8C200FD93B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107BA4C71A27A8C200FD93B0 /* ViewController.swift */; };
+		107BA4CB1A27A8C200FD93B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107BA4C91A27A8C200FD93B0 /* Main.storyboard */; };
+		107BA4CD1A27A8C200FD93B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107BA4CC1A27A8C200FD93B0 /* Images.xcassets */; };
+		107BA4D01A27A8C200FD93B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107BA4CE1A27A8C200FD93B0 /* LaunchScreen.xib */; };
+		107BA4DC1A27A8C200FD93B0 /* Very_Simple_App_for_KidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107BA4DB1A27A8C200FD93B0 /* Very_Simple_App_for_KidsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		107BA4D61A27A8C200FD93B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 107BA4B51A27A8C200FD93B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107BA4BC1A27A8C200FD93B0;
+			remoteInfo = "Very Simple App for Kids";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107BA4BD1A27A8C200FD93B0 /* Very Simple App for Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Very Simple App for Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107BA4C11A27A8C200FD93B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107BA4C21A27A8C200FD93B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		107BA4C51A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Very_Simple_App_for_Kids.xcdatamodel; sourceTree = "<group>"; };
+		107BA4C71A27A8C200FD93B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		107BA4CA1A27A8C200FD93B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		107BA4CC1A27A8C200FD93B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		107BA4CF1A27A8C200FD93B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		107BA4D51A27A8C200FD93B0 /* Very Simple App for KidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Very Simple App for KidsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107BA4DA1A27A8C200FD93B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107BA4DB1A27A8C200FD93B0 /* Very_Simple_App_for_KidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Very_Simple_App_for_KidsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		107BA4BA1A27A8C200FD93B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107BA4D21A27A8C200FD93B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		107BA4B41A27A8C200FD93B0 = {
+			isa = PBXGroup;
+			children = (
+				107BA4BF1A27A8C200FD93B0 /* Very Simple App for Kids */,
+				107BA4D81A27A8C200FD93B0 /* Very Simple App for KidsTests */,
+				107BA4BE1A27A8C200FD93B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		107BA4BE1A27A8C200FD93B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				107BA4BD1A27A8C200FD93B0 /* Very Simple App for Kids.app */,
+				107BA4D51A27A8C200FD93B0 /* Very Simple App for KidsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107BA4BF1A27A8C200FD93B0 /* Very Simple App for Kids */ = {
+			isa = PBXGroup;
+			children = (
+				107BA4C21A27A8C200FD93B0 /* AppDelegate.swift */,
+				107BA4C71A27A8C200FD93B0 /* ViewController.swift */,
+				107BA4C91A27A8C200FD93B0 /* Main.storyboard */,
+				107BA4CC1A27A8C200FD93B0 /* Images.xcassets */,
+				107BA4CE1A27A8C200FD93B0 /* LaunchScreen.xib */,
+				107BA4C41A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodeld */,
+				107BA4C01A27A8C200FD93B0 /* Supporting Files */,
+			);
+			path = "Very Simple App for Kids";
+			sourceTree = "<group>";
+		};
+		107BA4C01A27A8C200FD93B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107BA4C11A27A8C200FD93B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		107BA4D81A27A8C200FD93B0 /* Very Simple App for KidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				107BA4DB1A27A8C200FD93B0 /* Very_Simple_App_for_KidsTests.swift */,
+				107BA4D91A27A8C200FD93B0 /* Supporting Files */,
+			);
+			path = "Very Simple App for KidsTests";
+			sourceTree = "<group>";
+		};
+		107BA4D91A27A8C200FD93B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				107BA4DA1A27A8C200FD93B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		107BA4BC1A27A8C200FD93B0 /* Very Simple App for Kids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107BA4DF1A27A8C200FD93B0 /* Build configuration list for PBXNativeTarget "Very Simple App for Kids" */;
+			buildPhases = (
+				107BA4B91A27A8C200FD93B0 /* Sources */,
+				107BA4BA1A27A8C200FD93B0 /* Frameworks */,
+				107BA4BB1A27A8C200FD93B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Very Simple App for Kids";
+			productName = "Very Simple App for Kids";
+			productReference = 107BA4BD1A27A8C200FD93B0 /* Very Simple App for Kids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		107BA4D41A27A8C200FD93B0 /* Very Simple App for KidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 107BA4E21A27A8C200FD93B0 /* Build configuration list for PBXNativeTarget "Very Simple App for KidsTests" */;
+			buildPhases = (
+				107BA4D11A27A8C200FD93B0 /* Sources */,
+				107BA4D21A27A8C200FD93B0 /* Frameworks */,
+				107BA4D31A27A8C200FD93B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				107BA4D71A27A8C200FD93B0 /* PBXTargetDependency */,
+			);
+			name = "Very Simple App for KidsTests";
+			productName = "Very Simple App for KidsTests";
+			productReference = 107BA4D51A27A8C200FD93B0 /* Very Simple App for KidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		107BA4B51A27A8C200FD93B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Quintin Smith";
+				TargetAttributes = {
+					107BA4BC1A27A8C200FD93B0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					107BA4D41A27A8C200FD93B0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 107BA4BC1A27A8C200FD93B0;
+					};
+				};
+			};
+			buildConfigurationList = 107BA4B81A27A8C200FD93B0 /* Build configuration list for PBXProject "Very Simple App for Kids" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 107BA4B41A27A8C200FD93B0;
+			productRefGroup = 107BA4BE1A27A8C200FD93B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				107BA4BC1A27A8C200FD93B0 /* Very Simple App for Kids */,
+				107BA4D41A27A8C200FD93B0 /* Very Simple App for KidsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		107BA4BB1A27A8C200FD93B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107BA4CB1A27A8C200FD93B0 /* Main.storyboard in Resources */,
+				107BA4D01A27A8C200FD93B0 /* LaunchScreen.xib in Resources */,
+				107BA4CD1A27A8C200FD93B0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107BA4D31A27A8C200FD93B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		107BA4B91A27A8C200FD93B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107BA4C81A27A8C200FD93B0 /* ViewController.swift in Sources */,
+				107BA4C61A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodeld in Sources */,
+				107BA4C31A27A8C200FD93B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107BA4D11A27A8C200FD93B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107BA4DC1A27A8C200FD93B0 /* Very_Simple_App_for_KidsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		107BA4D71A27A8C200FD93B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 107BA4BC1A27A8C200FD93B0 /* Very Simple App for Kids */;
+			targetProxy = 107BA4D61A27A8C200FD93B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		107BA4C91A27A8C200FD93B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107BA4CA1A27A8C200FD93B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		107BA4CE1A27A8C200FD93B0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				107BA4CF1A27A8C200FD93B0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		107BA4DD1A27A8C200FD93B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		107BA4DE1A27A8C200FD93B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		107BA4E01A27A8C200FD93B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Very Simple App for Kids/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		107BA4E11A27A8C200FD93B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Very Simple App for Kids/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		107BA4E31A27A8C200FD93B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Very Simple App for KidsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Very Simple App for Kids.app/Very Simple App for Kids";
+			};
+			name = Debug;
+		};
+		107BA4E41A27A8C200FD93B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Very Simple App for KidsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Very Simple App for Kids.app/Very Simple App for Kids";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		107BA4B81A27A8C200FD93B0 /* Build configuration list for PBXProject "Very Simple App for Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107BA4DD1A27A8C200FD93B0 /* Debug */,
+				107BA4DE1A27A8C200FD93B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		107BA4DF1A27A8C200FD93B0 /* Build configuration list for PBXNativeTarget "Very Simple App for Kids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107BA4E01A27A8C200FD93B0 /* Debug */,
+				107BA4E11A27A8C200FD93B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		107BA4E21A27A8C200FD93B0 /* Build configuration list for PBXNativeTarget "Very Simple App for KidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				107BA4E31A27A8C200FD93B0 /* Debug */,
+				107BA4E41A27A8C200FD93B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		107BA4C41A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				107BA4C51A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodel */,
+			);
+			currentVersion = 107BA4C51A27A8C200FD93B0 /* Very_Simple_App_for_Kids.xcdatamodel */;
+			path = Very_Simple_App_for_Kids.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 107BA4B51A27A8C200FD93B0 /* Project object */;
+}
